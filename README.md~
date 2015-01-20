@@ -25,8 +25,3 @@ If you want to use this script, you need to put the files that you want to aggre
 You can change the number of files easily by change the value of c at the beginning of the script.
 
 To have a better performance at track 1, I used a few tricks. Such as: if one .res file predicts a character is a upper case number, I add one score to the upper case of the number and add 0.9 score to the lower case of the number, and vise versa. I can also apply this trick on ten and cow.
-
-
-#A simple but useful for getting train curve.
-Written in linux bash, easy to use.
-With this one, you can get the learning curve of exp kernel respecting to g.
